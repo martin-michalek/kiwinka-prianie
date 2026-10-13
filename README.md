@@ -50,3 +50,4 @@ vendor/      – gsap, ScrollTrigger, three (lokálne kópie)
 fonts/       – Fraunces + Spectral (woff2)
 ```
 # kiwinka-prianie
+# kiwinka-prianie
