@@ -1,0 +1,275 @@
+/* ─────────────────────────────────────────────
+   Kronika tridsiatej jesene — štýly
+   ───────────────────────────────────────────── */
+
+/* Písma (lokálne, bez CDN) */
+@font-face { font-family: 'Fraunces'; font-style: normal; font-display: swap; font-weight: 100 900;
+  src: url(fonts/fraunces-latin-ext-full-normal.woff2) format('woff2-variations');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Fraunces'; font-style: normal; font-display: swap; font-weight: 100 900;
+  src: url(fonts/fraunces-latin-full-normal.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Fraunces'; font-style: italic; font-display: swap; font-weight: 100 900;
+  src: url(fonts/fraunces-latin-ext-full-italic.woff2) format('woff2-variations');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Fraunces'; font-style: italic; font-display: swap; font-weight: 100 900;
+  src: url(fonts/fraunces-latin-full-italic.woff2) format('woff2-variations');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+@font-face { font-family: 'Spectral'; font-style: normal; font-weight: 300; font-display: swap; src: url(fonts/spectral-latin-ext-300-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Spectral'; font-style: normal; font-weight: 300; font-display: swap; src: url(fonts/spectral-latin-300-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Spectral'; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/spectral-latin-ext-300-italic.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Spectral'; font-style: italic; font-weight: 300; font-display: swap; src: url(fonts/spectral-latin-300-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Spectral'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/spectral-latin-ext-400-normal.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Spectral'; font-style: normal; font-weight: 400; font-display: swap; src: url(fonts/spectral-latin-400-normal.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Spectral'; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/spectral-latin-ext-400-italic.woff2) format('woff2');
+  unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Spectral'; font-style: italic; font-weight: 400; font-display: swap; src: url(fonts/spectral-latin-400-italic.woff2) format('woff2');
+  unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+
+/* Tokeny */
+:root {
+  --night: #120f2a;
+  --night-deep: #0a0818;
+  --bg: var(--night);
+  --parchment: #e9dcbb;
+  --parchment-2: #d6c398;
+  --parchment-ink: #3a2a1a;
+  --gold: #d4a84b;
+  --gold-soft: #f0d58a;
+  --ember: #f08a3c;
+  --wisp: #9cebdc;
+  --text: #e8e3f3;
+  --muted: #a79fc4;
+  --display: 'Fraunces', 'Georgia', serif;
+  --body: 'Spectral', 'Georgia', serif;
+  --measure: 36rem;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+html, body { margin: 0; min-height: 100%; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--body);
+  font-weight: 300;
+  font-size: clamp(1.05rem, 0.95rem + 0.4vw, 1.25rem);
+  line-height: 1.65;
+  overflow-x: hidden;
+  transition: background-color 1.4s ease;
+}
+body.locked { overflow: hidden; height: 100vh; }
+::selection { background: var(--gold); color: var(--night); }
+:focus-visible { outline: 2px solid var(--gold-soft); outline-offset: 4px; }
+a { color: var(--gold-soft); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: .2em; }
+[hidden] { display: none !important; }
+
+h1, h2, h3 { font-family: var(--display); font-weight: 400; margin: 0; letter-spacing: -0.01em; font-variation-settings: "SOFT" 70, "WONK" 1; }
+h2 { font-size: clamp(2rem, 1.4rem + 2.6vw, 3.6rem); line-height: 1.05; color: var(--gold-soft); margin-bottom: 1.2rem; }
+p { margin: 0 0 1.1em; }
+em { font-style: italic; }
+
+/* Pozadie */
+#sky { position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: 0; }
+#sky canvas { display: block; opacity: .8; }
+#embers { position: fixed; inset: 0; z-index: 1; pointer-events: none; opacity: 0; mix-blend-mode: screen; }
+#wisp { position: fixed; left: 0; top: 0; z-index: 2; pointer-events: none; width: 18px; height: 18px; margin: -9px 0 0 -9px; opacity: 0; }
+#wisp span { display: block; width: 100%; height: 100%; border-radius: 50%; background: var(--wisp);
+  box-shadow: 0 0 10px 3px rgba(156,235,220,.7), 0 0 40px 14px rgba(156,235,220,.25), 0 0 80px 30px rgba(156,235,220,.1);
+  animation: wisp-breathe 2.4s ease-in-out infinite; }
+@keyframes wisp-breathe { 0%,100% { transform: scale(.85); } 50% { transform: scale(1.1); } }
+
+/* ───────── Zapečatený list ───────── */
+.cover {
+  position: fixed; inset: 0; z-index: 20;
+  display: grid; place-items: center;
+  background: radial-gradient(ellipse at 50% 40%, #1d1740 0%, var(--night-deep) 70%);
+  padding: 1rem;
+}
+.letter { position: relative; width: min(92vw, 520px); display: grid; place-items: center; }
+.letter-paper {
+  width: 100%; aspect-ratio: 3 / 2; padding: 2.4rem 2rem;
+  background:
+    linear-gradient(160deg, rgba(255,255,255,.08), transparent 40%),
+    repeating-linear-gradient(0deg, transparent 0 3px, rgba(0,0,0,.015) 3px 4px),
+    linear-gradient(135deg, var(--parchment) 0%, var(--parchment-2) 100%);
+  color: var(--parchment-ink);
+  box-shadow: 0 30px 80px -20px rgba(0,0,0,.7), inset 0 0 60px rgba(90,60,20,.18);
+  display: grid; align-content: center; text-align: center;
+  transform: rotate(-1.5deg);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+.letter-paper::before { content: ""; position: absolute; inset: 0; pointer-events: none;
+  background: linear-gradient(180deg, transparent 48%, rgba(60,40,10,.12) 50%, transparent 52%); }
+.letter-to { font-family: var(--display); font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.2rem); line-height: 1.15; margin: 0 0 .6rem; font-variation-settings: "SOFT" 80, "WONK" 1; }
+.letter-sub { font-style: italic; margin: 0; opacity: .75; }
+.seal {
+  position: absolute; bottom: -2.6rem; width: 112px; height: 112px; padding: 0;
+  background: none; border: 0; cursor: pointer; border-radius: 50%;
+  filter: drop-shadow(0 12px 18px rgba(0,0,0,.55));
+  transition: transform .5s cubic-bezier(.2,.8,.2,1);
+}
+.seal svg { width: 100%; height: 100%; display: block; }
+.seal:hover { transform: scale(1.06) rotate(-3deg); }
+.seal:active { transform: scale(.96); }
+.letter-hint { position: absolute; bottom: -6.4rem; color: var(--muted); font-style: italic; font-size: .95rem;
+  animation: hint-pulse 3s ease-in-out infinite; }
+@keyframes hint-pulse { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+
+/* ───────── Kronika ───────── */
+.story { position: relative; z-index: 3; }
+
+.runes { position: fixed; right: 1.4rem; top: 50%; transform: translateY(-50%); z-index: 5; display: grid; gap: 1.1rem; }
+.runes a { position: relative; width: 2rem; height: 2rem; display: grid; place-items: center; color: var(--muted); border-radius: 50%; transition: color .4s, transform .4s; }
+.runes a::before { content: attr(data-rune); font-size: 1.1rem; line-height: 1; }
+.runes a::after { content: ""; position: absolute; inset: 0; border-radius: 50%; border: 1px solid currentColor; opacity: 0; transform: scale(.6); transition: opacity .4s, transform .4s; }
+.runes a.active { color: var(--gold-soft); }
+.runes a.active::after { opacity: .7; transform: scale(1); }
+.runes a:hover { color: var(--gold-soft); transform: scale(1.1); text-decoration: none; }
+@media (max-width: 760px) { .runes { display: none; } }
+
+.title-scene { min-height: 100vh; display: grid; place-content: center; text-align: center; padding: 6rem 1.25rem 4rem; }
+.kicker { color: var(--muted); font-style: italic; margin-bottom: 1.6rem; }
+.title { font-size: clamp(3rem, 1.6rem + 8vw, 8rem); line-height: .92; color: var(--text); display: grid; }
+.title span { display: block; }
+.title span:nth-child(2) { font-style: italic; color: var(--gold-soft); font-weight: 300; }
+.lede { max-width: var(--measure); margin: 2.4rem auto 0; color: var(--muted); font-size: 1.05em; }
+.scroll-cue { margin-top: 4rem; color: var(--muted); font-size: .9rem; font-style: italic; display: grid; justify-items: center; gap: .6rem; }
+.scroll-cue span { display: block; width: 1px; height: 3.2rem; background: linear-gradient(var(--gold-soft), transparent); animation: cue 2.2s ease-in-out infinite; transform-origin: top; }
+@keyframes cue { 0% { transform: scaleY(0); opacity: 0; } 40% { opacity: 1; } 100% { transform: scaleY(1); opacity: 0; } }
+
+/* Kapitoly */
+.chapter { position: relative; min-height: 100vh; display: grid; align-items: center; padding: 8rem 1.25rem; overflow: hidden; }
+.chapter-text { position: relative; z-index: 2; max-width: var(--measure); margin: 0 auto; }
+.chapter-text::before, .wish::before, .title-scene::before { content: ""; position: absolute; inset: -4rem -6rem; z-index: -1; pointer-events: none; border-radius: 50%;
+  background: radial-gradient(ellipse at center, color-mix(in srgb, var(--bg) 88%, transparent) 0%, color-mix(in srgb, var(--bg) 60%, transparent) 45%, transparent 72%); }
+.title-scene { position: relative; z-index: 2; }
+.title-scene::before { inset: 10vh 10vw; }
+.chapter-no { font-family: var(--display); font-style: italic; color: var(--gold); margin-bottom: .6rem; font-size: 1.05rem; }
+.chapter-text p:last-child { margin-bottom: 0; }
+
+.chapter-art { position: absolute; inset: 0; z-index: 1; pointer-events: none; color: var(--gold); }
+.art-itera .sigil { position: absolute; width: min(90vw, 70vh); right: -10vw; top: 50%; transform: translateY(-50%); opacity: .14; }
+@media (min-width: 1000px) { #stretnutie .chapter-text { margin-left: 12vw; } .art-itera .sigil { right: 4vw; } }
+.art-path svg { position: absolute; left: 0; right: 0; bottom: 8vh; width: 100%; height: 40vh; opacity: .55; }
+.art-path svg path { stroke-dasharray: 1200; stroke-dashoffset: 1200; }
+
+.chapter-castle .castle { position: absolute; left: 0; right: 0; bottom: 0; z-index: 1; pointer-events: none; color: var(--night-deep); }
+.castle-svg { display: block; width: 100%; height: auto; max-height: 55vh; opacity: .95; transform: translateY(20%); }
+.castle-windows rect { opacity: 0; filter: drop-shadow(0 0 8px var(--gold)); }
+.chapter-castle .chapter-text { padding-bottom: 20vh; }
+
+/* ───────── Dar ───────── */
+.gift { position: relative; height: 420vh; }
+.gift-pin { position: sticky; top: 0; height: 100vh; display: grid; place-items: center; overflow: hidden; padding: 1rem; }
+
+.charter { position: relative; width: min(92vw, 640px); display: grid; }
+.charter-body {
+  position: relative; padding: clamp(1.6rem, 4vw, 3.2rem) clamp(1.4rem, 5vw, 3.6rem); text-align: center;
+  background:
+    repeating-linear-gradient(0deg, transparent 0 3px, rgba(0,0,0,.02) 3px 4px),
+    linear-gradient(170deg, var(--parchment) 0%, var(--parchment-2) 100%);
+  color: var(--parchment-ink);
+  box-shadow: 0 40px 100px -30px rgba(0,0,0,.8), inset 0 0 70px rgba(90,60,20,.16);
+  clip-path: inset(50% 0 50% 0);
+}
+.charter-body .chapter-no { color: #8a5a1c; }
+.charter-body h2 { color: var(--parchment-ink); font-size: clamp(1.9rem, 1.3rem + 2.4vw, 3.2rem); }
+.charter-line { font-size: 1.02em; }
+.charter-big { font-family: var(--display); font-size: clamp(2.2rem, 1.2rem + 4.2vw, 4.4rem); line-height: 1; margin: 1.6rem 0 1.8rem; font-variation-settings: "SOFT" 90, "WONK" 1; }
+.charter-big em { color: #a0410e; font-weight: 300; }
+.charter-roll { height: 22px; margin: 0 -8px; border-radius: 11px;
+  background: linear-gradient(180deg, #f1e6c8 0%, #c6ae7c 45%, #8e7347 100%);
+  box-shadow: 0 8px 24px rgba(0,0,0,.5); position: relative; z-index: 2; }
+.charter-top { transform: translateY(50vh); }
+.charter-bottom { transform: translateY(-50vh); }
+.charter-roll::before, .charter-roll::after { content: ""; position: absolute; top: 0; width: 22px; height: 22px; border-radius: 50%;
+  background: radial-gradient(circle at 40% 40%, #f7edd3, #a68a55 60%, #6b5436); }
+.charter-roll::before { left: -11px; } .charter-roll::after { right: -11px; }
+
+.tickets { position: absolute; inset: 0; display: grid; place-content: center; grid-template-columns: repeat(2, minmax(0, 420px)); gap: clamp(1rem, 3vw, 2.6rem); padding: 1rem; perspective: 1400px; pointer-events: none; }
+@media (max-width: 820px) { .tickets { grid-template-columns: minmax(0, 420px); align-content: center; gap: 1rem; } }
+.ticket {
+  position: relative; display: grid; grid-template-rows: 160px auto;
+  background: linear-gradient(170deg, #1f1842 0%, #14102c 100%);
+  border: 1px solid rgba(212,168,75,.35); border-radius: 14px; overflow: hidden;
+  box-shadow: 0 40px 90px -30px rgba(0,0,0,.9), inset 0 1px 0 rgba(255,255,255,.06);
+  transform-style: preserve-3d; transform: rotateY(90deg); opacity: 0; pointer-events: auto;
+  transition: box-shadow .4s;
+}
+@media (max-width: 820px) { .ticket { grid-template-rows: 110px auto; } }
+.ticket-img { background-size: cover; background-position: center; position: relative;
+  background-color: #2a2150; }
+.ticket-img::before { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 50% 60%, rgba(212,168,75,.25), transparent 55%); }
+.ticket-img::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(20,16,44,0) 40%, #14102c 100%); }
+.ticket-body { padding: 1.2rem 1.5rem 1.5rem; }
+.ticket-kind { font-family: var(--display); font-style: italic; color: var(--gold); margin: 0 0 .2rem; font-size: .98rem; }
+.ticket h3 { font-size: clamp(1.6rem, 1.3rem + 1vw, 2.2rem); color: var(--text); margin-bottom: .5rem; }
+.ticket-meta { margin: 0; color: var(--gold-soft); font-size: .98rem; }
+.ticket-meta + .ticket-meta { color: var(--muted); }
+.ticket-desc { margin: .9rem 0 .8rem; font-size: .95rem; color: #cfc8e6; }
+@media (max-width: 820px) { .ticket-desc { display: none; } }
+.ticket-link { font-size: .9rem; }
+.ticket-notch { position: absolute; top: 160px; width: 22px; height: 22px; border-radius: 50%; background: var(--bg); border: 1px solid rgba(212,168,75,.35); transform: translateY(-50%); transition: background-color 1.4s ease; }
+@media (max-width: 820px) { .ticket-notch { top: 110px; } }
+.ticket-notch-l { left: -11px; } .ticket-notch-r { right: -11px; }
+.ticket::before { content: ""; position: absolute; left: 11px; right: 11px; top: 160px; border-top: 1px dashed rgba(212,168,75,.35); }
+@media (max-width: 820px) { .ticket::before { top: 110px; } }
+.ticket .shine { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(400px circle at var(--mx, 50%) var(--my, 50%), rgba(240,213,138,.16), transparent 60%); opacity: 0; transition: opacity .4s; }
+.ticket:hover .shine { opacity: 1; }
+
+/* ───────── Epilóg ───────── */
+.epilog { position: relative; min-height: 100vh; display: grid; place-items: center; padding: 8rem 1.25rem 10rem; text-align: center; }
+.candle-wrap { display: grid; justify-items: center; gap: 2.2rem; }
+.candle { position: relative; width: 60px; height: 220px; background: none; border: 0; cursor: pointer; padding: 0; }
+.candle .wax { position: absolute; left: 12px; right: 12px; bottom: 0; height: 150px; border-radius: 6px 6px 3px 3px;
+  background: linear-gradient(90deg, #d9cbb0, #f5ecd8 45%, #bfae8c); box-shadow: 0 20px 40px -10px rgba(0,0,0,.7); }
+.candle .wax::before { content: ""; position: absolute; left: 4px; top: -6px; width: 10px; height: 26px; border-radius: 50%; background: #f7f0df; }
+.candle .wick { position: absolute; left: 50%; bottom: 148px; width: 3px; height: 14px; margin-left: -1.5px; background: #2a1d10; border-radius: 2px; }
+.candle .flame { position: absolute; left: 50%; bottom: 158px; width: 20px; height: 48px; margin-left: -10px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  background: radial-gradient(ellipse at 50% 80%, #fff6d6 0%, #ffd56a 30%, #f08a3c 65%, rgba(240,138,60,0) 100%);
+  transform-origin: 50% 100%; animation: flicker 1.1s ease-in-out infinite alternate; filter: blur(.3px); }
+.candle .glow { position: absolute; left: 50%; bottom: 120px; width: 240px; height: 240px; margin-left: -120px; border-radius: 50%;
+  background: radial-gradient(circle, rgba(240,138,60,.35), rgba(240,138,60,0) 60%); animation: glow 1.1s ease-in-out infinite alternate; pointer-events: none; }
+@keyframes flicker { 0% { transform: scaleX(1) scaleY(1) rotate(-2deg); } 50% { transform: scaleX(.92) scaleY(1.08) rotate(2deg); } 100% { transform: scaleX(1.04) scaleY(.96) rotate(-1deg); } }
+@keyframes glow { 0% { opacity: .8; transform: scale(1); } 100% { opacity: 1; transform: scale(1.08); } }
+.candle.out .flame { animation: none; transform: scaleY(0) scaleX(.4); transition: transform .35s ease-in; }
+.candle.out .glow { animation: none; opacity: 0; transition: opacity .6s; }
+.candle.out .wick::after { content: ""; position: absolute; left: -6px; top: -40px; width: 14px; height: 40px; border-radius: 50%;
+  background: radial-gradient(ellipse, rgba(200,200,220,.35), transparent 70%); animation: smoke 2.4s ease-out forwards; }
+@keyframes smoke { 0% { opacity: .9; transform: translateY(0) scale(.6); } 100% { opacity: 0; transform: translateY(-120px) scale(2.2) rotate(12deg); } }
+.candle-hint { color: var(--muted); font-style: italic; max-width: 24rem; transition: opacity .6s; }
+.wish { position: absolute; inset: 0; display: grid; place-content: center; padding: 1.25rem; opacity: 0; pointer-events: none; }
+.wish > * { max-width: var(--measure); margin-left: auto; margin-right: auto; }
+.wish p { color: var(--text); }
+.sign { font-style: italic; color: var(--muted); margin-top: 2.2rem; }
+.sign .date { display: block; margin-top: .4rem; color: var(--gold); font-style: normal; font-family: var(--display); }
+.epilog.done .candle-wrap { opacity: 0; pointer-events: none; transition: opacity 1s .4s; }
+.epilog.done .wish { pointer-events: auto; }
+
+/* Odhaľovanie slov */
+.w { display: inline-block; will-change: transform, opacity, filter; }
+
+/* Obmedzený pohyb */
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; }
+  .charter-body { clip-path: none; }
+  .charter-top, .charter-bottom, .castle-svg { transform: none; }
+  .castle-windows rect { opacity: 1; }
+  .ticket { transform: none; opacity: 1; }
+  .art-path svg path { stroke-dashoffset: 0; }
+  .gift { height: auto; }
+  .gift-pin { position: relative; height: auto; display: grid; gap: 3rem; padding: 6rem 1rem; }
+  .tickets { position: relative; inset: auto; }
+  #sky, #embers, #wisp { display: none; }
+}
